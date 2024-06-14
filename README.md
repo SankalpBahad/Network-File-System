@@ -25,7 +25,7 @@ Features
 ## Getting Started
 Follow these steps to set up and run the Network File System:
 
-    Clone the repository: git clone https://github.com/your-repo/network-file-system.git
+    Clone the repository: git clone https://github.com/SankalpBahad/Network-File-System.git
     
     Navigate to the project directory: cd network-file-system
     
