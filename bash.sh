@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Compile StorageServerModule
-gcc SS1.c -pthread -o s
+gcc ./code/SS1.c -pthread -o server
 
 # Compile NamingServerModule
-gcc Naming_server.c -pthread -o n
+gcc ./code/Naming_server.c -pthread -o naming-server
 
 # Compile clientfunctions
-gcc client.c -o client
+gcc ./code/client.c -o client
 
 # Provide execution permissions to the compiled binaries
-chmod +x s n client
+chmod +x server naming-server client
